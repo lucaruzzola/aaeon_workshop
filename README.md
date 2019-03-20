@@ -23,9 +23,9 @@ A **CNN** is a neural network that uses kernel convolution instead of matrix mul
 ## Let's get our hands dirty!
 
 # Environment setup
-Please clone this repository: *https://github.com/lucaruzzola/openvino_workshop*
+Please clone this repository
 
-*git clone https://github.com/lucaruzzola/openvino_workshop*
+*git clone https://github.com/lucaruzzola/aaeon_workshop*
 
 If you don't have git installed you can install it executing this command in a terminal: *sudo apt-get install git*
 
