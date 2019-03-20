@@ -1,0 +1,15 @@
+name: workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+
+  - matplotlib=3.0.3=py36_0
+  - jupyter=1.0.0=py36_7
+  - numpy=1.16.2=py36h99e49ec_0
+  - pip=19.0.3=py36_0
+  - python=3.6.8=h0371630_0
+ 
+  - pip:
+    - opencv-python==3.4.4.19
+    - requests==2.21.0
