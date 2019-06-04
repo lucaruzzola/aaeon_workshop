@@ -21,7 +21,7 @@ face_bin="./assets/face_detection/FP32/fd.bin"
 face_detector = FaceDetector(model_xml=face_xml,\
                              model_bin=face_bin,\
                              device="CPU",\
-                             confidence_threshold=0.5,\
+                             confidence_threshold=0.33,\
                              cpu_extension="/opt/intel/computer_vision_sdk/deployment_tools/inference_engine/lib/ubuntu_16.04/intel64/libcpu_extension_sse4.so")
 
 cap = cv2.VideoCapture(0)
